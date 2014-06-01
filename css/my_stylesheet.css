@@ -1,10 +1,12 @@
-/*  CSS Document                             */
-
-/* Global Area */
-body,html {
-	height:100%;
-	width:100%;
-	/*font-family: 'Metrophobic', sans-serif;*/
+/* Navigation */
+.apply {
+	margin-right:30px;
+}
+.ni-brand {
+	padding: 10px;
+}
+.logo {
+	height: 30px;
 }
 
 .week-label {
@@ -87,12 +89,6 @@ body,html {
 .ni-international .left {
 }
 .ni-international .right {
-}
-
-.container-nav {
-	margin-right:10%;
-    margin-left:10%;
-    width:80%;
 }
 
 .mission { 
@@ -240,23 +236,6 @@ blockquote > p {
 	padding-bottom:10px;
 }
 
-.apply-now {
-	display:inline-block;
-}
-.apply-now > a.btn {
-	margin-top:14px;
-	margin-left:30px;
-	font-weight: bold;
-	color:#ffffff;
-}
-
-.navbar-inverse .nav > li > a {
-}
-.navbar-inverse .nav > li > a:focus,
-.navbar-inverse .nav > li > a:hover {
-	color: #173F7D;
-}
-
 .events {
 	position:relative;
 	padding-bottom:20px;
@@ -299,13 +278,6 @@ blockquote > p {
 	height:150px;
 	box-shadow: 0 0 10px 0 #000000;
 	z-index: 10;
-}
-.header-text {
-	padding-left:20px;
-	font-size:30px;
-	font-weight:bold;
-	padding-top:20px;
-	color:#173F7D;
 }
 
 .client-list {
@@ -498,50 +470,6 @@ blockquote > p {
 	width:100px;
 	bottom:20px;
 	right:20px;
-}
-
-.nav-tabs > li > a {
-	font-weight:bold;
-	font-size:15px;
-	padding-left:32px;
-	padding-right:32px;
-	color:#0067b1;
-}
-
-.navbar {
-	margin-top:20px;
-	z-index: 100;
-	position:relative;
-}
-
-.navbar-inner .nav-collapse .nav > li > a:focus,
-.navbar-inner .nav-collapse .nav > li > a:hover {
-  background-color: #eeeeee;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
-}
-.navbar-inner .nav .active > a,
-.navbar-inner .nav .active > a:hover,
-.navbar-inner .nav .active > a:focus {
-  background-color: #eeeeee;
-  color: #0067b1;
-  font-weight: bold;
-  -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-}
-
-.navbar-fixed-top {
-  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-     -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 2px 2px 20px #0067B1;
 }
 
 .service-bullets {
