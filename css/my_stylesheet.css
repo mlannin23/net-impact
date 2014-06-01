@@ -2,16 +2,26 @@
 body {
 	padding-top: 50px;
 }
+a:hover {
+	text-decoration: none;
+}
 
 /* Navigation */
 .apply {
-	margin-right:30px;
+	margin-left: 15px;
+	margin-right: 15px;
 }
 .ni-brand {
 	padding: 10px;
 }
 .logo {
 	height: 30px;
+}
+
+/* Events */
+.events{
+	border-color: #bce8f1;
+	padding-bottom: 20px;
 }
 
 .week-label {
@@ -62,33 +72,6 @@ body {
 
 .calendar {
 	background:#C4DFE0;
-}
-.event-calendar .heading {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background:#C4DFE0;
-	margin-left:-20px;
-	padding-left:20px;
-	margin-right:-20px;
-	padding-right:20px;
-	padding-bottom:10px;
-}
-.event-calendar .row-fluid .middle {
-	border-right: solid thin #0067B1;
-}
-.event-calendar .row-fluid .span3,
-.event-calendar .row-fluid .span4 {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	box-shadow: 1px 1px 10px #000000;
-	padding:5px;
-	padding-left:5px;
-	background:white;
-}
-.link:hover {
-	text-decoration: none;
 }
 
 .ni-international .left {
@@ -203,16 +186,6 @@ blockquote > p {
 	padding-top:10px;
 	padding-right:30px;
 	padding-bottom:10px;
-}
-
-.events {
-	position:relative;
-	padding-bottom:20px;
-	padding-top:10px;
-	background-color:#C4DFE0;
-}
-.event-head {
-	display:inline;
 }
 
 .tiles {
