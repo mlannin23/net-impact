@@ -1,3 +1,8 @@
+/* Base */
+body {
+	padding-top: 50px;
+}
+
 /* Navigation */
 .apply {
 	margin-right:30px;
@@ -118,42 +123,6 @@ blockquote {
 }
 blockquote > p {
 	font-size:15px;
-}
-
-.carousel-inner {
-  margin-left:5%;
-  width: 90%;
-  margin-right:5%;
-  z-index: -1;
-}
-
-.carousel {
-	-moz-box-shadow: inset 1px 1px 10px #000000;
-   	-webkit-box-shadow: inset 1px 1px 10px #000000;
-   	box-shadow: inset 1px 1px 10px #000000;
-}
-.carousel-caption {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  padding: 15px;
-  background: #333333;
-  background: rgba(0, 0, 0, 0.75);
-}
-.carousel-caption h4 {
-	color: #ffffff;
-	font-size:20px;
-}
-.carousel-caption p {
-  color: #ffffff;
-  font-size:15px;
-}
-.carousel-caption h4 {
-  margin: 0 0 5px;
-}
-.carousel-caption {
-  margin-bottom: 6%;
-  opacity:0.8;
 }
 
 .flyer {
@@ -511,29 +480,6 @@ blockquote > p {
 	margin-left:190px;
 }
 
-.carousel {
-	margin-top:60px;
-}
-
-.carousel-control {
-  position: absolute;
-  top: 40%;
-  left: 15px;
-  width: 40px;
-  height: 40px;
-  margin-top:20px;
-  font-size: 60px;
-  font-weight: 100;
-  line-height: 30px;
-  color: #222222;
-  text-align: center;
-  background: transparent;
-  opacity: 0.5;
-}
-.carousel-control:hover {
-	color:#000000;
-}
-
 @media (min-width:1200px) {
 
 .tabs {
@@ -584,15 +530,6 @@ blockquote {
   	font-style:italic;
 }
 
-.carousel-indicators {
-	display:none;
-}
-.carousel-inner {
-	margin-left:5%;
-	margin-right:5%;
-	width:90%;
-}
-
 }
 
 @media (max-width: 800px) {
@@ -621,20 +558,6 @@ blockquote {
      -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 0px #0067B1;
-}
-
-.carousel-control {
-	display:none;
-}
-
-.carousel-caption {
-  display:none;
-}
-
-.carousel-inner {
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
 }
 
 .ni-international .left {
