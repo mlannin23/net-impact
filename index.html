@@ -131,16 +131,9 @@
 			</div>
 		</div>
 
-<!--The list of clients scroller, the only thing to ever change here are the img src tags to add or change which clients are in the scrollbar. To add more, copy and paste this code and place it under the last div:
-
-	<div>
-		<img src="img/sourcefile.png"/>
-	</div>
--->
-
-		<div class="clients">
-			<div class="container" style="overflow:hidden;">
-				<div id="client-slider">
+		<div class="client-slider">
+			<div class="container-fluid">
+				<div id="slider" class="slider">
 					<div>
 						<img src="img/wellfargo.png"/>
 					</div>
@@ -244,49 +237,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript">
-
-			$('#apply').tooltip('hide');
-
-			$(".contact-bar").hide();
-
-			$('.carousel').carousel();
-
-		    jQuery(document).ready(function ($) {
-		        $('#tabs').tab();
-		    });
-
-			$(function() {
-
-				var $c = $('#client-slider'),
-					$w = $(window);
-
-				$c.carouFredSel({
-					align: false,
-					items: 10,
-					scroll: {
-						items: 3,
-						duration: 20000,
-						timeoutDuration: 0,
-						easing: 'linear',
-						pauseOnHover: 'immediate'
-					}
-				});
-
-				
-				$w.bind('resize.example', function() {
-					var nw = $w.width();
-					if (nw < 990) {
-						nw = 990;
-					}
-
-					$c.width(nw * 3);
-					$c.parent().width(nw);
-
-				}).trigger('resize.example');
-
-			});
-			
-		</script>
+		<script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+		<script src="js/my_javascript.js"></script>
 	</body>
 </html>
