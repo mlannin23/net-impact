@@ -1,319 +1,248 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta id="view" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Net Impact Berkeley</title>
 		
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="css/my_stylesheet.css" />
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/my_stylesheet.css" rel="stylesheet">
 
-		<link rel="shortcut icon" href="/favicon-nib.ico" type="image/x-icon">
-		<link rel="icon" href="/favicon-nib.ico" type="image/x-icon">
-		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
-		<script type="text/javascript" src="js/my_javascript.js"></script>
-		<script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-		<style>
-			.container,
-			.navbar-static-top .container,
-			.navbar-fixed-top .container,
-			.navbar-fixed-bottom .container {
-				margin-right:10%;
-				margin-left:10%;
-				width:80%;
-			}
-		</style>
+		<link rel="shortcut icon" href="img/favicon.ico">
 	</head>
 	<body>
-		<div class="container-nav">
-			<div class="navbar">
-				<div class="navbar-inner navbar-fixed-top">
-					<div class="container-nav">
-						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target="#nav-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="brand" href="index.html"><img src="img/logo.png" width="120" id="header-logo"/></a>
-						<div class="nav-collapse collapse">
-							<ul class="nav pull-right">
+		<nav class="navbar navbar-default navbar-fixed-top navbar-nib" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand ni-brand" href="index.html"><img src="img/logo.png" class="logo"></a>
+		    </div>
 
-<!--To change any of the Menu items, edit the section below-->
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-collapse">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="about.html">About</a></li>
+		        <li><a href="practice.html">Our Practice</a></li>
+		        <li><a href="clients.html">Clients</a></li>
+		        <li><a href="recruiting.html">Recruiting</a></li>
+		        <li class="apply">
+		        	<button type="button" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank" class="btn btn-info navbar-btn">Apply Now</button>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 
-								<li>
-									<a id="about" href="about.html">About</a>
-								</li>
-								<li>
-									<a id="practice" href="practice.html">Our Practice</a>
-								</li>
-								<li>
-									<a id="clients" href="clients.html">Clients</a>
-								</li>
-								<li>
-									<a id="recruiting" href="recruiting.html">Recruiting</a>
-								</li>
-								<li>
-
-<!--The URL to the Apply Now button is located here after the href="-->
-
-									<div class="apply-now">
-										<a class="btn btn-info" id="apply" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply Now</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="myCarousel" class="carousel slide">
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1" class=""></li>
-				<li data-target="#myCarousel" data-slide-to="2" class=""></li>
-				<li data-target="#myCarousel" data-slide-to="3" class=""></li>
-			</ol>
-
-<!--Here is the section for the Carousel of images, each image is in the img folder on the server, so the img src tags point to different images, for example "img/banner1.jpg"-->
-
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="img/banner1.jpg" alt="">
-				</div>
-				<div class="item">
-					<img src="img/nature.jpg" alt="">
-					<div class="container">
-						<div class="carousel-caption">
-
-<!--Captions that are in the image banners-->
-
-							<h4>Bringing responsibility to business and innovation to responsibility</h4>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/club.jpg" alt="">
-					<div class="container">
-						<div class="carousel-caption">
-							<h4>We utilize our diverse backgrounds to provide insightful solutions</h4>
-						</div>
-					</div>
-				</div>
-				<div class="item">
-					<img src="img/berkeley.jpg" alt="">
-					<div class="container">
+  	<div id="carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/banner1.jpg" alt="First slide">
+        </div>
+        <div class="item">
+          <img src="img/nature.jpg" alt="Second slide">
+          <div class="container-fluid">
+            <div class="carousel-caption">
+              <h4>Bringing responsibility to business and innovation to responsibility</h4>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/club.jpg" alt="Third slide">
+          <div class="container-fluid">
+            <div class="carousel-caption">
+              <h4>We utilize our diverse backgrounds to provide insightful solutions</h4>
+            </div>
+          </div>
+        </div>
+	      <div class="item">
+					<img src="img/berkeley.jpg" alt="Fourth slide">
+					<div class="container-fluid">
 						<div class="carousel-caption">
 							<h4>Join a world-wide network of 30,000 change-makers</h4>
 						</div>
 					</div>
 				</div>
 			</div>
-			<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-			<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
-    	</div>
+      <a class="left carousel-control" href="#carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
 
-<!--The recruiting calendar under the Carousel of images, each item in the calendar is listed in the following format:
-
-	<div class="span4 middle">
-		<h5>DayofWeek<small> | Month Day</small></h5>
-		<p><h4>Title of Event<small> TimePM | Location</small></h4>
-	</div>
-
-	In addition, to change the title Fall 2013 rush year, edit line 131 -->
-
-		<!--<div class="event-calendar">
-			<div class="events">
-				<div class="container">
-					<h2 style="margin-left:10px;">Recruiting Calendar of Events | Spring 2014<small> | <a href="recruiting.html#recruiting-calendar" class="link">Full Calendar</a></small></h2>
+		<div class="events bg-info">
+			<div class="container-fluid">
+				<h2 class="text-info">Recruitment Calendar | Fall 2014</h2>
+				<div class="row">
+					<div class="col-md-4">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
 				</div>
-				<div class="container">
-					<div class="row-fluid">
-						<div class="span12">
-							<div class="span4 middle">
-								<h5>Thursday<small> | January 23</small></h5>
-								<p><h4><a href="https://www.facebook.com/events/592070440871879" target="_blank">Info Session</a><small> 7:00PM | 20 Barrows</small></h4>
-							</div>
-							<div class="span4 middle">
-								<h5>Monday<small> | January 27</small></h5>
-								<p><h4><a href="https://www.facebook.com/events/592070440871879" target="_blank">Info Session</a><small> 7:00PM | 170 Barrows </small></h4>
-								</div>
-							<div class="span4 middle">
-								<h5>Tuesday<small> | January 28</small></h5>
-								<p><h4><a class="link" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Application Due</a><small> 5:00pm | Online </small></h4>
-							</div>
+				<p class="text-center">
+					<a href="recruiting.html#recruiting">View Full Calendar</a>
+				</p>
+			</div>
+		</div>
+
+		<div class="client-slider">
+			<div id="slider" class="slider">
+				<div>
+					<img src="img/wellfargo.png"/>
+				</div>
+				<div>
+					<img src="img/sungevity.png" />
+				</div>
+				<div>
+					<img src="img/ucberkeley.png" />
+				</div>
+				<div>
+					<img src="img/kiva.png" style="margin-left:-20px;" />
+				</div>
+				<div>
+					<img src="img/cisco.png" />
+				</div>
+				<div>
+					<img class="small" src="img/crs.png" />
+				</div>
+				<div>
+					<img src="img/genentech.png" />
+				</div>
+				<div>
+					<img src="img/naturebridge.png" style="margin-left:-10px;"/>
+				</div>
+				<div>
+					<img src="img/baxter.png" />
+				</div>
+				<div>
+					<img src="img/clorox.png" style="margin-left:20px;" />
+				</div>
+				<div>
+					<img src="img/pge.png" />
+				</div>
+				<div>
+					<img src="img/juniorachievement.png" style="margin-left:10px;"/>
+				</div>
+				<div>
+					<img src="img/oneworld.png" />
+				</div>
+			</div>
+		</div>
+
+		<div class="information">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>Learn more about us and our mission</h4>
+							<p>We use our skills to show clients how to improve the bottom line, while helping people and the planet</p>
+							<p><a class="btn btn-default btn-sm" href="about.html">Learn more</a></p>
 						</div>
 					</div>
-				</div>
-			</div>
-		</div> -->
-
-		<!-- Kaleidoscope flyer -->
-
-		<figure class="flyer container-fluid">
-			<img src="img/kaleidoscope.jpg">
-			<div class="register-here">
-				<a class="btn btn-info" id="apply" href="http://www.eventbrite.com/e/kaleidoscope-when-corporate-impact-meets-consumer-behavior-tickets-10624954525" target="_blank">Register</a>
-			</div>
-		</figure>
-
-<!--The list of clients scroller, the only thing to ever change here are the img src tags to add or change which clients are in the scrollbar. To add more, copy and paste this code and place it under the last div:
-
-	<div>
-		<img src="img/sourcefile.png"/>
-	</div>
--->
-
-		<div class="clients">
-			<div class="container" style="overflow:hidden;">
-				<div id="client-slider">
-					<div>
-						<img src="img/wellfargo.png"/>
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>Apply to be a part of NI Berkeley</h4>
+							<p>Work on real, relevant consulting projects and get connected to a 30,000-strong professional network</p>
+							<p><a class="btn btn-default btn-sm" href="recruiting.html" style="margin-right:10px;">Learn more</a><a class="btn btn-info btn-sm" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply now</a></p>
+						</div>
 					</div>
-					<div>
-						<img src="img/sungevity.png" />
+			    <div class="col-md-3">
+			    	<div class="information-section">
+							<h4>Interested in becoming a client?</h4>
+							<p>For more information, questions and concerns, please feel free to contact us at: alan.hickey@nib.berkeley.edu</p>
+							<p><a class="btn btn-default btn-sm" href="practice.html">Learn more</a></p>
+						</div>
 					</div>
-					<div>
-						<img src="img/ucberkeley.png" />
-					</div>
-					<div>
-						<img src="img/kiva.png" style="margin-left:-20px;" />
-					</div>
-					<div>
-						<img src="img/cisco.png" />
-					</div>
-					<div>
-						<img class="small" src="img/crs.png" />
-					</div>
-					<div>
-						<img src="img/genentech.png" />
-					</div>
-					<div>
-						<img src="img/naturebridge.png" style="margin-left:-10px;"/>
-					</div>
-					<div>
-						<img src="img/baxter.png" />
-					</div>
-					<div>
-						<img src="img/clorox.png" style="margin-left:20px;" />
-					</div>
-					<div>
-						<img src="img/pge.png" />
-					</div>
-					<div>
-						<img src="img/juniorachievement.png" style="margin-left:10px;"/>
-					</div>
-					<div>
-						<img src="img/oneworld.png" />
-					</div>
-				</div>
-			</div>
-		</div>
-
-<!--Each item here in the copyright section is a column in the footer. Only edit things within the span3 div tags. The h4 tag contains the title of the column, the p tag below is the description, and the href in the btn tag links the "Learn More" button to a page-->
-
-		<div class="copyright">
-			<div class="container">
-				<div class="row-fluid" style="padding-top:50px;">
-					<div class="span3">
-						<h4>Learn more about us and our mission</h4>
-						<p style="color:lightgrey;">We use our skills to show clients how to improve the bottom line, while helping people and the planet</p><p><a class="btn btn-mini" href="about.html">Learn more »</a></p>
-					</div>
-					<div class="span3">
-						<h4>Apply to be a part of NI Berkeley</h4>
-						<p style="color:lightgrey;">Work on real, relevant consulting projects and get connected to a 30,000-strong professional network</p><p><a class="btn btn-mini" style="margin-right:10px" href="recruiting.html">Learn more »</a><a class="btn btn-mini btn-info" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply now »</a></p>
-					</div>
-			        <div class="span3">
-						<h4>Interested in becoming a client?</h4>
-						<p style="color:lightgrey;">For more information, questions and concerns, please feel free to contact us at: alan.hickey@nib.berkeley.edu</p><p><a class="btn btn-mini" href="practice.html">Learn more »</a></p>
-					</div>
-					<div class="span3">
-						<h4>View some of NI Berkeley's past clients</h4>
-						<p style="color:lightgrey;">We provide high impact solutions to many firms in their for-profit and non-profit sectors</p><p><a class="btn btn-mini" href="clients.html">Learn more »</a></p>
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>View some of NI Berkeley's past clients</h4>
+							<p>We provide high impact solutions to many firms in their for-profit and non-profit sectors</p>
+							<p><a class="btn btn-default btn-sm" href="clients.html">Learn more</a></p>
+						</div>
 					</div>	
 				</div>
-
-<!--The inset box underneath the footer columns with the contact information-->
-
-				<div class="contact-footer-email">
-					<h4>For any questions and concerns, please contact us at <a href="mailto:rachel.chang@nib.berkeley.edu">rachel.chang@nib.berkeley.edu</a></h4>
-				</div>
 			</div>
-			<div class="footer-wrapper">
-				<div class="container" id="footer-bottom">
-					<a href="http://www.ocf.berkeley.edu/">
-						<img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" class="footer-image" width="98" height="39" style="border:0" />
-					</a>
+		</div>
 
-<!--The links in the bottom of the footer on the right side-->
-
-					<ul class="footer">
-						<li>
-							<strong><small><span style="color:lightgrey">&copy Copyright 2013 | UC Berkeley Net Impact </span></small></strong>
-						</li>
-						<li class="menu" style="padding-right:30px;">
-							<a href="recruiting.html">Recruiting</a>
-						</li>
-						<li class="menu">
-							<a href="clients.html">Clients</a>
-						</li>
-						<li class="menu">
-							<a href="practice.html">Practice</a>
-						</li>
-						<li class="menu">
-							<a href="about.html">About</a>
-						</li>
-					</ul>
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="copyright">&copy 2014 Net Impact Berkeley Undergrad</div>
+					</div>
+					<div class="col-md-6">
+						<ul class="links">
+							<li>
+								<a href="https://www.facebook.com/nib.berkeley.edu" class="facebook"></a>
+							</li>
+							<li>
+								<a href="mailto:ucberkeley@netimpact.org" class="mail"></a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<script type="text/javascript">
-
-			$('#apply').tooltip('hide');
-
-			$(".contact-bar").hide();
-
-			$('.carousel').carousel();
-
-		    jQuery(document).ready(function ($) {
-		        $('#tabs').tab();
-		    });
-
-			$(function() {
-
-				var $c = $('#client-slider'),
-					$w = $(window);
-
-				$c.carouFredSel({
-					align: false,
-					items: 10,
-					scroll: {
-						items: 3,
-						duration: 20000,
-						timeoutDuration: 0,
-						easing: 'linear',
-						pauseOnHover: 'immediate'
-					}
-				});
-
-				
-				$w.bind('resize.example', function() {
-					var nw = $w.width();
-					if (nw < 990) {
-						nw = 990;
-					}
-
-					$c.width(nw * 3);
-					$c.parent().width(nw);
-
-				}).trigger('resize.example');
-
-			});
-			
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/my_javascript.js"></script>
 	</body>
 </html>

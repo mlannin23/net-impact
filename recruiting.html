@@ -1,265 +1,281 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta id="view" name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-		<title>Recruiting</title>
-	
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="css/my_stylesheet.css" />
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Net Impact Berkeley</title>
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/my_stylesheet.css" rel="stylesheet">
 
-		<link rel="shortcut icon" href="/favicon-nib.ico" type="image/x-icon">
-		<link rel="icon" href="/favicon-nib.ico" type="image/x-icon">
-		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap-typeahead.js"></script>
-		<script type="text/javascript" src="js/my_javascript.js"></script>
-		<script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+		<link rel="shortcut icon" href="img/favicon.ico">
 	</head>
 	<body>
+		<nav class="navbar navbar-default navbar-fixed-top navbar-nib" role="navigation">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand ni-brand" href="index.html"><img src="img/logo.png" class="logo"></a>
+		    </div>
 
-		<div class="container-nav">
-			<div class="navbar">
-				<div class="navbar-inner navbar-fixed-top">
-					<div class="container-nav">
-						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="brand" href="index.html"><img src="img/logo.png" width="120" id="header-logo"/></a>
-						<div class="nav-collapse collapse">
-							<ul class="nav pull-right">
-
-<!--If you are planning to change the items in the navigation bar, or any URLs, it is recommended that you change everything in the code on the index.html homepage file, then copy and paste to replace the navbar on other pages. After doing so, just change the URL that each item links to to make it appropriate for the page you're on-->
-
-								<li>
-									<a id="about" href="about.html">About</a>
-								</li>
-								<li>
-									<a id="practice" href="practice.html">Our Practice</a>
-								</li>
-								<li>
-									<a id="clients" href="clients.html">Clients</a>
-								</li>
-								<li class="active">
-									<a id="recruiting" href="recruiting.html">Recruiting</a>
-								</li>
-								<li>
-									<div class="apply-now">
-										<a class="btn btn-info" id="apply" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply Now</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-<!--To change the information in the testimonial at the top, edit the section below-->				
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-collapse">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="about.html">About</a></li>
+		        <li><a href="practice.html">Our Practice</a></li>
+		        <li><a href="clients.html">Clients</a></li>
+		        <li class="active"><a href="recruiting.html">Recruiting</a></li>
+		        <li class="apply">
+		        	<button type="button" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank" class="btn btn-info navbar-btn">Apply Now</button>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
 
 		<div class="testimonial">
-				<div class="row-fluid">
-					<div class="span2" style="padding-top:10px;">
-
-<!--The image associated with the testimonial-->
-
-						<img src="img/naturebridge.png" class="testimonial-img" style="width:175px;" />
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2 hidden-sm hidden-xs">
+						<img src="img/naturebridge.png" class="img-testimonial">
 					</div>
-					<div class="span10" style="padding-top:10px;">
-						<blockquote style="border-left: 5px solid #36913B;">
-							<p>"What impressed me most about Net Impact Berkeley was the quality of their associates. Everyone we worked with was talented and clearly cared about delivering the highest quality result possible. They provided a complex market analysis for NatureBridge which exceeded my expectations in terms of its thoroughness and professionalism.”<small>NatureBridge</small></p>
+					<div class="col-md-10 col-sm-12">
+						<blockquote class="quote quote-naturebridge">
+							<p>"What impressed me most about Net Impact Berkeley was the quality of their associates. Everyone we worked with was talented and clearly cared about delivering the highest quality result possible. They provided a complex market analysis for NatureBridge which exceeded my expectations in terms of its thoroughness and professionalism.”</p>
+							<footer>NatureBridge</footer>
 						</blockquote>
 					</div>
+				</div>
 			</div>
 		</div>
 
-<!--Description at the top of the recruiting page-->		
-
-		<div class="container" style="margin-top:30px;">
-			<div class="row-fluid" style="margin-left:-10px;">
-				<div class="span12">
-					<h1 style="color:#0067b1">Join Net Impact</h1>
-				</div>
+		<div class="join">
+			<div class="container-fluid">
+				<h1>Join Net Impact</h1>
 				<p>Thank you for your interest in joining Net Impact Berkeley. Recruiting takes place at the beginning of every semester, and is open to students of all majors, years and backgrounds. During the beginning of the semester, you can find NIB at Calapalooza, Sproul Plaza and at our two info sessions. Please come visit us at any of these to learn more about our organization and consultants. We highly recommend candidates to attend one of two info sessions to learn more about NIB and ask any questions.</p>
-			</div>
-
-<!--The following section within the <ul> tags has the 3 tabs that are listed on the page-->
-
-			<div id="content" class="tabs" style="margin-top:10px;">
-				<h3>Why Net Impact?</h3>
-				<ul class="nav nav-tabs" data-tabs="tabs">
-				    <li class="active"><a style="font-size:17px;" data-toggle="tab" href="#research">Use Business<br>for Good</a></li>
-				    <li><a style="font-size:17px;" data-toggle="tab" href="#growth">Join an International<br>Organization</a></li>
-				    <li><a style="font-size:17px;" data-toggle="tab" href="#modeling">Real<br>Experience</a></li>
-				    <a href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" class="btn btn-large btn-info btn-recruiting" target="_blank">Apply Now</a>
-				</ul>
-
-<!--Each large description in the below section corresponds to each of the three tabs-->
-
-				<div class="tab-content">
-				    <div class="tab-pane in active" id="research" style="margin-left:5px;">
-				       <p><em><strong>Your passion for consulting will be used for the best possible purpose: Making the world a better place</strong></em></p><p>Net Impact Berkeley conducts consulting projects for clients that have an interest in social and environmental responsibility. Our clients, including companies like Wells Fargo, Clorox, and Cisco, are already leaders in their industry, and NIB helps them to also become pioneers of sustainability. Our projects further the notion that good business can better not only the bottom line, but also the world.</p>
+				<div class="join-tabs">
+					<ul class="nav nav-tabs nav-justified">
+					  <li class="active"><a href="#good" data-toggle="tab">Use Business for Good</a></li>
+					  <li><a href="#org" data-toggle="tab">Join an International Organization</a></li>
+					  <li><a href="#experience" data-toggle="tab">Real Experience</a></li>
+					</ul>
+					<div class="tab-content">
+				    <div class="tab-pane fade in active" id="good">
+		       		<p><em><strong>Your passion for consulting will be used for the best possible purpose: Making the world a better place</strong></em></p>
+		       		<p>Net Impact Berkeley conducts consulting projects for clients that have an interest in social and environmental responsibility. Our clients, including companies like Wells Fargo, Clorox, and Cisco, are already leaders in their industry, and NIB helps them to also become pioneers of sustainability. Our projects further the notion that good business can better not only the bottom line, but also the world.</p>
 				    </div>
-				    <div class="tab-pane" id="growth" style="margin-left:5px;">
-				        <p><em><strong>You become a member of a 30,000-strong international organization</strong></em></p><p>Unlike any other consulting group on campus, Net Impact Berkeley is affiliated with our parent organization, Net Impact, one of the largest and most recognized international business organizations. You don’t just become a member of our chapter, but also get connected to professionals across the workforce, and the world. NIB members are automatically invited to receive premier student membership, with benefits like networking sessions, speaker panels, and invitations to the <a href="about.html">2013 Net Impact Conference.</a></p>
+				    <div class="tab-pane fade" id="org">
+			        <p><em><strong>You become a member of a 30,000-strong international organization</strong></em></p>
+			        <p>Unlike any other consulting group on campus, Net Impact Berkeley is affiliated with our parent organization, Net Impact, one of the largest and most recognized international business organizations. You don’t just become a member of our chapter, but also get connected to professionals across the workforce, and the world. NIB members are automatically invited to receive premier student membership, with benefits like networking sessions, speaker panels, and invitations to the <a href="about.html">2013 Net Impact Conference.</a></p>
 				    </div>
-				    <div class="tab-pane" id="modeling" style="margin-left:5px;">
-				        <p><em><strong>You develop yourself professionally, and receive an experience unlike any other</strong></em></p><p>Net Impact Berkeley prides itself on a full training program for its associates, spanning an entire semester. We work with all members to hone their consulting skills, with workshops on Powerpoint, Excel, Resume/Cover Letters, and Case Interviewing Strategies, available exclusively to our NIB chapter. You will get the chance to work with your team on a client project, and see your analysis and recommendations get implemented to improve an organization’s operations and financial health. With an experience like this under their belt, our alumni have gone on to graduate and work in such prestigious firms as Bain & Co., Deloitte, PwC, and Ernst & Young.</p>
+				    <div class="tab-pane fade" id="experience">
+			        <p><em><strong>You develop yourself professionally, and receive an experience unlike any other</strong></em></p>
+			        <p>Net Impact Berkeley prides itself on a full training program for its associates, spanning an entire semester. We work with all members to hone their consulting skills, with workshops on Powerpoint, Excel, Resume/Cover Letters, and Case Interviewing Strategies, available exclusively to our NIB chapter. You will get the chance to work with your team on a client project, and see your analysis and recommendations get implemented to improve an organization’s operations and financial health. With an experience like this under their belt, our alumni have gone on to graduate and work in such prestigious firms as Bain &amp; Co., Deloitte, PWC, and Ernst &amp; Young.</p>
 				    </div>
-				</div>  
-			</div>
-		</div>
-
-		<div class="event-calendar">
-			<div class="calendar">
-				<div class="container" id="recruiting-calendar">
-
-<!--This line below is where you can change the year of recruiting, this is the beginning of the recruiting calendar section-->
-
-					<h3>Recruiting Calendar of Events | Spring 2014</h3>
-				</div>
-				<div class="container">
-					<div class="heading">
-						<div class="week-label">
-							- Week 1 -
-						</div>
-						<div class="row-fluid">
-							<div class="span12" style="margin-left:-10px;">
-								<div class="span3 middle">
-
-<!--Each section here between <div class="span3 middle"> till </div> is one calendar item in the following format:
-
-	<div class="span3 middle">
-		<h5>Month Date<br><small>DayOfWeek</small></h5>
-		<p><h4>Title of Event<br><small>Extra Information</small></h4></p>
-		<small>Time | Location:</small><br>TimePM, Room Location
-	</div>
-
--->
-
-									<h5>January 23<br><small>Thursday</small></h5>
-									<p><h4><a href="https://www.facebook.com/events/592070440871879" target="_blank">Info Session</a><br><br></h4></p>
-									<small>Time | Location:</small><br>7:00PM, 20 Barrows
-								</div>
-								<div class="span3 middle">
-									<h5>January 27<br><small>Monday</small></h5>
-									<p><h4><a href="https://www.facebook.com/events/592070440871879" target="_blank">Info Session</a><br><br></h4></p>
-									<small>Time | Location:</small><br>7:00PM, 170 Barrows
-								</div>
-								<div class="span3 middle">
-									<h5>January 28<br><small>Tuesday</small></h5>
-									<p><h4>Application Due<br><small><a href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply here</a></small></h4></p>
-									<small>Time | Location:</small><br>5<small>PM</small>, Online
-								</div>
-								<div class="span3">
-									<h5>January 31 - February 1<br><small>Friday - Saturday</small></h5>
-									<p><h4>1<span style="font-size:10px;">st</span> Round Interview<br><small>(Invite Only)</small></h4></p>
-									<small>Time | Location:</small><br>TBD
-								</div>
-							</div>
-						</div>
-						<div class="week-label">
-							- Week 2 -
-						</div>
-						<div class="row-fluid">
-							<div class="span12" style="margin-left:-10px;">
-								<div class="span3 middle">
-									<h5>February 3<br><small>Monday</small></h5>
-									<p><h4>Meet the Firm<br><small>(Invite Only)</small></h4></p>
-									<small>Time | Location:</small><br>7-9<small>PM</small>, TBD
-								</div>
-								<div class="span3 middle">
-									<h5>February 4-5<br><small>Tuesday-Wednesday</small></h5>
-									<p><h4>2<span style="font-size:10px;">nd</span> Round Interview<br><small>Offers Extended</small></h4></p>
-									<small>Time | Location:</small><br>TBD
-								</div>
-								<div class="span3 middle">
-									<h5>February 6<br><small>Thursday</small></h5>
-									<p><h4>"Welcome to NIB"<br><small>New Member Orientation</small></h4></p>
-									<small>Time | Location:</small><br>TBD
-								</div>
-								<div class="span3">
-									<h5>February 7-9<br><small>Friday-Sunday</small></h5>
-									<p><h4>Net Impact Retreat<br><small>All members</small></h4></p>
-									<small>Time | Location:</small><br>TBD
-								</div>
-							</div>
-						</div>
-					</div>
+					</div>  
 				</div>
 			</div>
 		</div>
 
-<!--If you are going to be changing the copyright footer section of the page, it is recommended to change it on the homepage and copy paste the entire copyright block to replace it on all of the other pages-->						
+		<div id="recruiting" class="events bg-info">
+			<div class="container-fluid">
+				<h2 class="text-info">Recruitment Calendar | Fall 2014</h2>
+				<div class="week-label">
+					- Week 1 -
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="week-label">
+					- Week 2 -
+				</div>
+				<div class="row">
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3">
+						<a href="#">
+							<div class="panel panel-default">
+							  <h5 class="panel-heading">
+							  	Event Date<br>
+							  	<small>Event Day</small>
+							  </h5>
+							  <div class="panel-body">
+							    <p><strong>Event Name</strong></p>
+							    <p>Event Location and Time</p>
+							  </div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>			
 
-		<div class="copyright">
-			<div class="container">
-				<div class="row-fluid" style="padding-top:50px;">
-					<div class="span3">
-						<h4>Learn more about us and our mission</h4>
-						<p style="color:lightgrey;">We use our skills to show clients how to improve the bottom line, while helping people and the planet</p><p><a class="btn btn-mini" href="about.html">Learn more »</a></p>
+		<div class="information">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>Learn more about us and our mission</h4>
+							<p>We use our skills to show clients how to improve the bottom line, while helping people and the planet</p>
+							<p><a class="btn btn-default btn-sm" href="about.html">Learn more</a></p>
+						</div>
 					</div>
-					<div class="span3">
-						<h4>Apply to be a part of NI Berkeley</h4>
-						<p style="color:lightgrey;">Work on real, relevant consulting projects and get connected to a 30,000-strong professional network</p><p><a class="btn btn-mini" style="margin-right:10px" href="recruiting.html">Learn more »</a><a class="btn btn-mini btn-info" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply now »</a></p>
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>Apply to be a part of NI Berkeley</h4>
+							<p>Work on real, relevant consulting projects and get connected to a 30,000-strong professional network</p>
+							<p><a class="btn btn-default btn-sm" href="recruiting.html" style="margin-right:10px;">Learn more</a><a class="btn btn-info btn-sm" href="https://www.formstack.com/forms/?1667349-6qleDWBOmC" target="_blank">Apply now</a></p>
+						</div>
 					</div>
-			        <div class="span3">
-						<h4>Interested in becoming a client?</h4>
-						<p style="color:lightgrey;">For more information, questions and concerns, please feel free to contact us at: alan.hickey@nib.berkeley.edu</p><p><a class="btn btn-mini" href="practice.html">Learn more »</a></p>
+			    <div class="col-md-3">
+			    	<div class="information-section">
+							<h4>Interested in becoming a client?</h4>
+							<p>For more information, questions and concerns, please feel free to contact us at: alan.hickey@nib.berkeley.edu</p>
+							<p><a class="btn btn-default btn-sm" href="practice.html">Learn more</a></p>
+						</div>
 					</div>
-					<div class="span3">
-						<h4>View some of NI Berkeley's past clients</h4>
-						<p style="color:lightgrey;">We provide high impact solutions to many firms in their for-profit and non-profit sectors</p><p><a class="btn btn-mini" href="clients.html">Learn more »</a></p>
+					<div class="col-md-3">
+						<div class="information-section">
+							<h4>View some of NI Berkeley's past clients</h4>
+							<p>We provide high impact solutions to many firms in their for-profit and non-profit sectors</p>
+							<p><a class="btn btn-default btn-sm" href="clients.html">Learn more</a></p>
+						</div>
 					</div>	
 				</div>
-				<div class="contact-footer-email">
-					<h4>For any questions and concerns, please contact us at <a href="mailto:rachel.chang@nib.berkeley.edu">rachel.chang@nib.berkeley.edu</a></h4>
-				</div>
 			</div>
-			<div class="footer-wrapper">
-				<div class="container" id="footer-bottom">
-					<a href="http://www.ocf.berkeley.edu/">
-						<img src="http://www.ocf.berkeley.edu/images/hosted-logos/ocfbadge_mini8.png" alt="Hosted by the OCF" class="footer-image" width="98" height="39" style="border:0" />
-					</a>
-					<ul class="footer">
-						<li>
-							<strong><small><span style="color:lightgrey">&copy Copyright 2013 | UC Berkeley Net Impact </span></small></strong>
-						</li>
-						<li class="menu" style="padding-right:30px;">
-							<a href="recruiting.html">Recruiting</a>
-						</li>
-						<li class="menu">
-							<a href="clients.html">Clients</a>
-						</li>
-						<li class="menu">
-							<a href="practice.html">Practice</a>
-						</li>
-						<li class="menu">
-							<a href="about.html">About</a>
-						</li>
-					</ul>
+		</div>
+
+		<div class="footer">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="copyright">&copy 2014 Net Impact Berkeley Undergrad</div>
+					</div>
+					<div class="col-md-6">
+						<ul class="links">
+							<li>
+								<a href="https://www.facebook.com/nib.berkeley.edu" class="facebook"></a>
+							</li>
+							<li>
+								<a href="mailto:ucberkeley@netimpact.org" class="mail"></a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<script type="text/javascript">
-
-			$(".contact-bar").hide();
-
-		    jQuery(document).ready(function ($) {
-		        $('#tabs').tab();
-		    });
-
-		    $("#contact").click(function(){
-		    	$(".contact-bar").animate({width:'toggle'},500);
-		    });
-		    $(".contact-close").click(function(){
-		    	$(".contact-bar").animate({width:'toggle'},500);
-		    });
-
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/my_javascript.js"></script>
 	</body>
 </html>
-
