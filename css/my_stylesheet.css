@@ -100,6 +100,14 @@ a:hover {
 	margin-top: 20px;
 }
 
+/* Net Impact */
+.net-impact {
+	padding: 20px 0 40px;
+}
+.about-net-impact {
+	padding-bottom: 20px;
+}
+
 /* Information */
 .information {
 	background: #31708f;
@@ -192,31 +200,6 @@ a:hover {
 	background:#C4DFE0;
 }
 
-.ni-international .left {
-}
-.ni-international .right {
-}
-
-.mission { 
-	margin-top:-10px;
-	margin-bottom:10px;
-	background:#ffffff;
-}
-.mission .span12 {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-.mission-inner {
-	margin:10px;
-	padding:20px;
-	background:white;
-	box-shadow: 1px 1px 10px #000000;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
-
 .flyer {
 	text-align: center;
 	margin: 10px auto;
@@ -301,11 +284,6 @@ a:hover {
 	padding:10px 0px;
 	padding-bottom:20px;
 	background:#c4dfe0;
-}
-
-.ni-international {
-	background:#c4dfe0;
-	padding-bottom:10px;
 }
 
 .clients-page {
@@ -423,15 +401,6 @@ a:hover {
 	opacity:0.5;
 }
 
-.about-photos {
-	border:#ffffff solid thick;
-}
-
-
-.tab-pane {
-	margin-left:40px;
-}
-
 .navbar-subhead {
 	position:absolute;
 	font-style:italic;
@@ -464,12 +433,6 @@ a:hover {
 	padding:15px;
 }
 .footer-wrapper {
-	padding:15px;
-}
-.ni-international {
-	padding:15px;
-}
-.testimonial {
 	padding:15px;
 }
 
@@ -517,21 +480,6 @@ a:hover {
      -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 0px #0067B1;
-}
-
-.ni-international .left {
-	border-right:none;
-}
-.ni-international .right {
-	border-left:none;
-}
-
-.mission { 
-	margin-top:10px;
-	margin-bottom:10px;
-	padding-bottom:10px;
-	padding-left:10px;
-	padding-right:10px;
 }
 
 .btn-recruiting {
