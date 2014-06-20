@@ -5,6 +5,9 @@ body {
 a:hover {
 	text-decoration: none;
 }
+.container-fluid {
+	max-width: 1170px;
+}
 
 /* Navigation */
 .navbar-nib {
