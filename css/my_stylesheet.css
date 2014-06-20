@@ -108,6 +108,44 @@ a:hover {
 	padding-bottom: 20px;
 }
 
+/* Consulting */
+.consulting {
+	padding: 40px 0;
+}
+.services {
+	padding-top: 20px;
+}
+.service-body {
+	position: relative;
+}
+.img-service {
+	position: absolute;
+	width: 300px;
+	right: 60px;
+	top: -10px;
+	opacity: 0.5;
+}
+.service-bullets {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+.service-bullets li {
+	padding: 10px 0;
+}
+@media (max-width: 768px) {
+	.img-service {
+		opacity: 0.2;
+		right: 0;
+	}
+}
+
+/* Interest */
+.interest {
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+}
+
 /* Information */
 .information {
 	background: #31708f;
@@ -190,10 +228,6 @@ a:hover {
 	padding-left:80px;
 	padding-right:80px;
 	float:right;
-}
-
-.accordion-heading > a {
-	font-size:20px;
 }
 
 .calendar {
@@ -284,10 +318,6 @@ a:hover {
 	padding:10px 0px;
 	padding-bottom:20px;
 	background:#c4dfe0;
-}
-
-.clients-page {
-	background: #c4dfe0;
 }
 
 #wrapper {
@@ -385,22 +415,6 @@ a:hover {
 	right:20px;
 }
 
-.service-bullets {
-	font-size:15px;
-}
-.service-bullets > li {
-	padding-top:10px;
-	padding-bottom:10px;
-	margin-left:40px;
-}
-.service-image {
-	width:300px;
-	right:60px;
-	position:absolute;
-	top:-10px;
-	opacity:0.5;
-}
-
 .navbar-subhead {
 	position:absolute;
 	font-style:italic;
@@ -480,22 +494,6 @@ a:hover {
      -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0 0px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 0px #0067B1;
-}
-
-.btn-recruiting {
-	height:100%;
-	padding-left:20px;
-	padding-right:20px;
-}
-
-.service-bullets > li {
-	padding-top:10px;
-	padding-bottom:10px;
-	margin-left:5px;
-}
-.service-image {
-	opacity:0.2;
-	right:0;
 }
 
 .footer-image {
