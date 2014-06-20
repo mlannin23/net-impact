@@ -89,6 +89,14 @@ a:hover {
 	float: right;
 }
 
+/* About */
+.about {
+	padding: 40px 0;
+}
+.img-leader {
+	margin-top: 20px;
+}
+
 /* Information */
 .information {
 	background: #31708f;
@@ -154,25 +162,6 @@ a:hover {
 	font-size:15px;
 	font-weight:bold;
 	font-style:italic;
-}
-
-.leadership-list-left {
-	position:relative;
-	width:25%;
-	float:left;
-	height:100%;
-}
-.img-border {
-	margin-top:10px;
-	margin-bottom:10px;
-	border:#dddddd solid 10px;
-	box-shadow: 1px 1px 10px #000000;
-}
-.leadership-list-right {
-	position:relative;
-	width:70%;
-	float:right;
-	height:100%;
 }
 
 .contact-footer-email {
