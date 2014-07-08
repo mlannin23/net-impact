@@ -13,6 +13,7 @@ a:hover {
 .navbar-nib {
 	background-color: #ffffff;
 	margin-bottom: 0;
+	box-shadow: 0 0 10px 0 #31708f;
 }
 .apply {
 	margin-left: 15px;
@@ -79,7 +80,7 @@ a:hover {
 /* Testimonials */
 .testimonial {
 	padding: 20px 40px 0;
-	box-shadow: 0 0 10px 0 #31708f;
+	border-bottom: 1px solid #e7e7e7;
 }
 .quote {
 	font-size: 15px;
