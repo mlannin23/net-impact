@@ -125,15 +125,18 @@ a:hover {
 .services {
 	padding-top: 20px;
 }
-.service-body {
+.service {
+	position: relative;
+}
+.service-heading {
 	position: relative;
 	z-index: 1;
 }
-.img-service {
+.service-body img {
 	position: absolute;
 	width: 300px;
 	right: 60px;
-	top: -10px;
+	top: 15px;
 	opacity: 0.5;
 }
 .service-bullets {
