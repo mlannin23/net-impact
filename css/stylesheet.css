@@ -1,6 +1,6 @@
 /* Base */
 body {
-	padding-top: 50px;
+	padding-top: 80px;
 }
 a:hover {
 	text-decoration: none;
@@ -11,19 +11,57 @@ a:hover {
 
 /* Navigation */
 .navbar-nib {
+	min-height: 80px;
+	border-color:	transparent;
 	background-color: #ffffff;
-	margin-bottom: 0;
 	box-shadow: 0 0 10px 0 #31708f;
 }
+.nib-brand {
+	height: 80px;
+	padding: 20px 15px;
+}
+.nib-brand img {
+	height: 40px;
+}
+.navbar-nib .navbar-nav > li > a {
+  color: #0067b1;
+  font-weight: bold;
+}
+.navbar-nib .navbar-nav > li > a:hover,
+.navbar-nib .navbar-nav > li > a:focus {
+  color: #00afef;
+}
+.navbar-nib .navbar-nav > .active > a,
+.navbar-nib .navbar-nav > .active > a:hover,
+.navbar-nib .navbar-nav > .active > a:focus {
+  color: #00afef;
+  background-color: transparent;
+}
+.navbar-nib .navbar-toggle {
+	border-color: transparent;
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+.navbar-nib .navbar-toggle:hover,
+.navbar-nib .navbar-toggle:focus {
+	background-color: transparent;
+}
+.navbar-nib .navbar-toggle .icon-bar {
+	background-color: #0067b1;
+}
 .apply {
-	margin-left: 15px;
 	margin-right: 15px;
+	margin-left: 15px;
 }
-.ni-brand {
-	padding: 10px;
-}
-.logo {
-	height: 30px;
+@media (min-width: 768px) {
+	.navbar-nib .navbar-nav > li > a {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.apply {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
 }
 
 /* Events */
