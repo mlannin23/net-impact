@@ -9,6 +9,13 @@ a:hover {
 	color: #00afef;
 	text-decoration: none;
 }
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+h1, h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
 .container-fluid {
 	max-width: 1170px;
 }
@@ -227,11 +234,6 @@ a:hover {
 }
 .interest-text {
 	color: #0067b1;
-}
-
-/* Results */
-.results {
-	padding: 20px 0 30px;
 }
 
 /* Clients */
