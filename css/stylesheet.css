@@ -179,7 +179,8 @@ h1, h2 {
 	padding: 20px 0 30px;
 	border-bottom: 1px solid #e7e7e7;
 }
-.img-leader {
+.about-image {
+	text-align: center;
 	margin-top: 20px;
 }
 
