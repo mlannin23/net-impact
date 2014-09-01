@@ -5,6 +5,11 @@ body {
 .container-fluid {
 	max-width: 1000px;
 }
+.half-rule {
+	width: 100px;
+	margin: 40px auto;
+	border-top: 1px solid #e7e7e7;
+}
 
 /* Typography */
 a {
