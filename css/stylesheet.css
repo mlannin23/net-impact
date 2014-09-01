@@ -109,6 +109,15 @@ h1, h2 {
 	background-color: #eaf3f9;
 	padding: 20px 0 30px;
 }
+.events .row {
+	margin-right: -5px;
+	margin-left: -5px;
+}
+.events .col-sm-4,
+.events .col-sm-3 {
+	padding-right: 5px;
+	padding-left: 5px;
+}
 .events h2 {
 	color: #0067b1;
 }
