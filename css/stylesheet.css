@@ -90,8 +90,8 @@ h1, h2 {
 	background-color: #0067b1;
 }
 .apply {
-	margin-right: 15px;
-	margin-left: 15px;
+	display: inline-block;
+	margin: 3px 15px;
 }
 @media (min-width: 768px) {
 	.navbar-nib .navbar-nav > li > a {
@@ -99,8 +99,8 @@ h1, h2 {
 		padding-bottom: 30px;
 	}
 	.apply {
-		margin-top: 15px;
-		margin-bottom: 15px;
+		margin-top: 23px;
+		margin-bottom: 23px;
 	}
 }
 
