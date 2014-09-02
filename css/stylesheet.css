@@ -190,12 +190,30 @@ h1, h2 {
 
 /* About */
 .about {
-	padding: 20px 0 30px;
+	padding: 20px 0 40px;
 	border-bottom: 1px solid #e7e7e7;
 }
 .about-image {
 	text-align: center;
 	margin-top: 20px;
+}
+
+/* Leadership */
+.leadership {
+	padding: 20px 0 30px;
+	border-bottom: 1px solid #e7e7e7;
+	text-align: center;
+}
+.leadership h4 {
+	margin-bottom: 5px;
+}
+.title {
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+.major {
+	font-size: 13px;
+	color: #999;
 }
 
 /* Net Impact */
