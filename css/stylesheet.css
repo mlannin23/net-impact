@@ -216,6 +216,19 @@ h1, h2 {
 	color: #999;
 }
 
+/* Sponsors */
+.sponsors {
+	padding: 20px 0 30px;
+	border-bottom: 1px solid #e7e7e7;
+	text-align: center;
+}
+.img-accenture {
+	padding-top: 5px;
+}
+.img-crb {
+	padding-top: 20px;
+}
+
 /* Net Impact */
 .net-impact {
 	padding: 20px 0 40px;
